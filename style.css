@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+h1, h2 {
+    width: fit-content;
+    margin: 6px;
+    justify-self: center;
+}
+main {
+    width: fit-content;
+    max-width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div {
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    border-radius: var(--border-radius);
+}
+p {
+    font-size: 28px;
+}
+select {
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
+button {
+    width: 100px;
+    height: 30px;
+}
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h2 {
+    margin: 4px;
+}
+
+.red { background-color: rgb(186, 22, 22);}                 .red-light, .red:hover { background-color: rgb(255, 0, 0);}
+.blue { background-color: rgb(26, 26, 255);}                .blue-light, .blue:hover { background-color: rgb(67, 67, 236);}
+.green { background-color: green;}                          .green-light, .green:hover { background-color: rgb(25, 176, 25);}
+.yellow { background-color: rgb(205, 205, 18);}             .yellow-light, .yellow:hover { background-color: rgb(255, 255, 0);}
+.purple { background-color: rgb(92, 1, 92);}                .purple-light, .purple:hover { background-color: purple;}
+.black { background-color: black;}                          .black-light, .black:hover { background-color: rgb(45, 45, 45);}
